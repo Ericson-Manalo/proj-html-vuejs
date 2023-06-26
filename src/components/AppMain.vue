@@ -16,8 +16,8 @@
 
         <!--LATEST BRAND SECTION-->
         <section class="band">
-            <div class="band-section">
-                <div></div>
+            <div class="d-flex justify-content-center">
+                <div class="band-section">
                 <h2 class="h2-fs">
                     Latest Band News
                 </h2>
@@ -25,6 +25,26 @@
                 <p class="line-height">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus cursus egestas. Cras quis vehicula quam, a tempus velit. Ut feugiat augue in sodales luctus
                 </p>
+                </div>
+            </div>
+            
+            <div class="wrapper d-flex justify-content-center">
+                <div class="image-container">
+                    <div class="left-side h-100">
+                        <div class="first">
+                            1
+                        </div>
+
+                        <div class="second">
+                            2
+                        </div>
+                        <div class="third">
+                            3
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
         </section>
     </main>
@@ -50,9 +70,6 @@ section.music{
 }
 
 div.music-section div{
-    
-}
-div.music-section div{
     width: 23%;
     height: 16px;
     background-color: $red;
@@ -77,4 +94,35 @@ div.band-section{
 section.band{
     background-color: $darkgray;
 }
+
+div.image-container{
+    background-color: red;
+    width: 75%;
+    height: 1600px;
+}
+
+div.first{
+    width: 62%;
+    height: 20%;
+    background-color: blue;
+}
+
+div.second{
+    width: 62%;
+    background-color: green;
+    height: 60%;
+}
+
+div.third{
+    width: 62%;
+    height: 20%;
+    background-color: blue;
+}
+
+div.fourth{
+    width: 35%;
+    background-color: yellow;
+    height: 60%;
+}
+
 </style>
