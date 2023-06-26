@@ -1,9 +1,9 @@
 <template>
-    <main>
+    <header>
         <h2>
             App Header
         </h2>
-    </main>
+    </header>
 </template>
 <script>
 export default {

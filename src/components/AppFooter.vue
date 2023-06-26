@@ -1,9 +1,9 @@
 <template>
-    <main>
+    <footer>
         <h2>
             App Footer
         </h2>
-    </main>
+    </footer>
 </template>
 <script>
 export default {
