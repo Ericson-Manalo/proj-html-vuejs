@@ -15,6 +15,7 @@ export default {
     },
 }
 </script>
-<style lang="">
+<style lang="scss">
+@use '../styles/general.scss' as*;
     
 </style>
