@@ -17,6 +17,10 @@ export default {
 </script>
 <style lang="scss">
 @use '../styles/general.scss' as*;
-
+    header{
+        background-image: url('../assets/images/home_slider.jpg');
+        height: 100vh;
+        background-size: cover;
+    }
     
 </style>
