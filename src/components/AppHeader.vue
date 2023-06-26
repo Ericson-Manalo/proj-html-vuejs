@@ -45,6 +45,7 @@ export default {
         height: 100vh;
         background-size: cover;
         position: relative;
+        background-position: center;
     }
     div.header-content{
         position: absolute;
