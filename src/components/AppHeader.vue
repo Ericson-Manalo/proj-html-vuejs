@@ -12,15 +12,15 @@
             <h1>
                 Untold Stories
             </h1>
-            <p>
+            <p class="mb-4">
                 There is an untold story behind every favorite song.
             </p>
-            <div>
-                <button>
-                    
+            <div class="buttons">
+                <button class="btn-latest-album">
+                    LATEST ALBUM
                 </button>
-                <button>
-                    
+                <button class="btn-live-dates">
+                    LIVE DATES
                 </button>
             </div>
         </div>
@@ -39,6 +39,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @use '../styles/general.scss' as*;
+@use '../styles/partials/variables' as*;
     header{
         background-image: url('../assets/images/home_slider.jpg');
         height: 100vh;
@@ -65,5 +66,23 @@ export default {
         font-size: 24px;
         font-weight: 400;
     }
+
+    button{
+        padding: 1rem 2rem;
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        margin: .7rem;
+    }
+
+    .btn-latest-album{
+        background-color: $red;
+        border: 1px solid $red;
+    }
+
+    .btn-live-dates{
+        background-color: transparent;
+    }
+
     
 </style>
