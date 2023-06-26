@@ -26,7 +26,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @use '../styles/general.scss' as*;
-@use '../styles/partials/variables' as*;
+@use '../styles/partials/variables.scss' as*;
 @use '../styles/partials/mixins.scss' as*;
 
 section.music{
@@ -36,10 +36,16 @@ section.music{
 }
 
 div.music-section{
-    width: 60%;
+    width: 40%;
     display: flex;
     @include centering(center, center, column);
     text-align: center;
+    padding: 4rem 0;
 }
 
+
+
+div.music-section p{
+    color: #7d7b8d;
+}
 </style>
