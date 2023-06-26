@@ -1,8 +1,8 @@
 <template>
     <header>
-        <h2>
-            App Header
-        </h2>
+        <div class="logo">
+            <img src="../assets/images/avada-music-logo.png" alt="Avada Music Logo">
+        </div>
     </header>
 </template>
 <script>
