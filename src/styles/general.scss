@@ -29,6 +29,11 @@ section.music{
     justify-content: center;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 @media screen and (max-width: 768px) {
 
     div.technology-card{
