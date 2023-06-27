@@ -49,7 +49,7 @@ export default {
     },
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../styles/general.scss' as*;
 @use '../styles/partials/variables.scss' as*;
 @use '../styles/partials/mixins.scss' as*;
@@ -57,6 +57,7 @@ export default {
 
 div.upper-footer{
     background-color: $gray;
+    display: flex;
 }
     
 </style>
