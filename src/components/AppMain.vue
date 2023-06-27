@@ -16,11 +16,13 @@
 
         <AppBand/>
 
+        <AppLiveDate/>
         
     </main>
 </template>
 <script>
 import AppBand from './AppBrand.vue'
+import AppLiveDate from './AppLiveDate.vue'
 export default {
     name: 'AppMain',
     data() {
@@ -29,7 +31,8 @@ export default {
         }
     },
     components:{
-        AppBand
+        AppBand,
+        AppLiveDate
     }
 }
 </script>
