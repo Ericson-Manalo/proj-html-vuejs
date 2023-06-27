@@ -7,7 +7,9 @@
             <div class="list-settings">
                 <ul>
                     <li v-for="setting in settingList">
-                        {{ setting.text }}
+                        <a href="#">
+                            {{ setting.text }}
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -58,6 +60,22 @@ export default {
 div.upper-footer{
     background-color: $gray;
     display: flex;
+    align-items: center;
+    padding: 3.5rem;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;   
+    margin: 0;
+
+}
+
+ul li{
+    list-style: none;
+    height: 100%;
+    margin-right: 1rem;
+    color: white;
 }
     
 </style>
