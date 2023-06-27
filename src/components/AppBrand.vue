@@ -196,6 +196,7 @@ div.old-school-card{
     margin-bottom: 30px;
     background-repeat: no-repeat;
     position: relative;
+    background-position: center;
 }
 
 div.stage-card{
@@ -203,6 +204,7 @@ div.stage-card{
     height: 600px;
     background-repeat: no-repeat;
     position: relative;
+    background-position: center;
 }
 
 .row{
