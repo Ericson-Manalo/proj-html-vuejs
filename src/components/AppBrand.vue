@@ -87,6 +87,25 @@
                     </div>
                 </div>
             </div>
+
+            <div class="d-flex justify-content-center banner align-items-center h-100">
+                <p class="m-0">
+                    VIEW ALL LATEST NEWS
+                </p>
+            </div>
+
+            <section class="citation">
+                <div class="citation">
+                    <p>
+                        “I just listened to it and said to myself, “Man, I really love this album.” Still, today, it just sounds so fresh. It sounds full of ideas. These guys knew what they were doing. They’re good. And they’re inventive. I haven’t heard anything this year that’s as inventive. I don’t really expect to.”
+                    </p>
+                    <a href="#">
+                        <img src="../assets//images/band_interview_play_icon.png" alt="Band interview play icon">
+                    </a>
+                    
+                </div>
+            </section>
+
         </section>
 </template>
 <script>
@@ -116,9 +135,13 @@ div.band-section{
     color: #7d7b8d;
 }
 
+div.wrapper{
+    padding-bottom: 8rem;
+}
+
 section.band{
     background-color: $darkgray;
-    padding-bottom: 6rem;
+    
 }
 
 div.container-fluid{
@@ -188,5 +211,39 @@ div.stage-card{
 .row{
     padding-right: 1rem;
 }
+
+div.banner{
+    padding: 3rem;
+    background-color: $red;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+section.citation{
+    background-image: url('../assets/images/home-testimonial-parallax.jpg');
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+div.citation{
+    width: 40%;
+    display: flex;
+    @include centering (center, center, column);
+    text-align: center;
+    height: 100%;
+}
+
+div.citation p{
+    color: white;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 44px;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 3rem;
+}   
+
     
 </style>
