@@ -1,6 +1,10 @@
+@use './partials/mixins.scss' as*;
+
+
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif; 
+    font-family: 'Merriweather', serif;
 }
 
 .h2-fs{
@@ -15,4 +19,23 @@ hr{
     border: 1px solid;
     margin-bottom: 3rem;
 }
+
+.line-height{
+    line-height: 2rem;
+}
+
+section.music{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    div.technology-card{
+        background-image: url('../assets/images/blog_music_techo-600x300.jpg');
+    }
+
+
+}
+
 
