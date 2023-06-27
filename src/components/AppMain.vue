@@ -29,21 +29,36 @@
             </div>
             
             <div class="wrapper d-flex justify-content-center">
-                <div class="image-container">
-                    <div class="left-side h-100">
-                        <div class="first">
-                            1
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <div class="row">
+                                <div class="col-12 first">
+                                    1
+                                </div>
+                                    <div class="col-6 second">
+                                        1
+                                    </div>
+                                    <div class="col-6 second">
+                                        1
+                                    </div>
+                                    <div class="col-12 first">
+                                    1
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="second">
-                            2
+                        <div class="col-12 col-lg-4">
+                            <div class="col-12 second">
+                                        1
+                            </div>
+                            <div class="col-12 second">
+                                        1
+                            </div>
                         </div>
-                        <div class="third">
-                            3
-                        </div>
+                        
+
                     </div>
-
-
                 </div>
             </div>
         </section>
@@ -95,34 +110,34 @@ section.band{
     background-color: $darkgray;
 }
 
-div.image-container{
+div.container-fluid{
     background-color: red;
-    width: 75%;
-    height: 1600px;
+    width: 65%;
 }
 
 div.first{
-    width: 62%;
-    height: 20%;
-    background-color: blue;
+    height: 300px;
+    background-image: url('../assets/images/blog_music_techo-800x400.jpg');
+    background-repeat: no-repeat;
 }
 
 div.second{
-    width: 62%;
-    background-color: green;
-    height: 60%;
+    background-image: url('../assets/images/blog-post1-400x600.jpg');
+    height: 600px;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 
 div.third{
-    width: 62%;
-    height: 20%;
-    background-color: blue;
+    background-image: url('../assets/images/blog-post1-400x600.jpg');
+    height: 600px;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 
-div.fourth{
-    width: 35%;
-    background-color: yellow;
-    height: 60%;
+div.col{
+    margin: 1rem;
 }
+
 
 </style>
