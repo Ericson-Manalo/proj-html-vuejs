@@ -242,5 +242,4 @@ div.citation p{
     padding-bottom: 3rem;
 }   
 
-    
 </style>

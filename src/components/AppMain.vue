@@ -66,8 +66,4 @@ div.music-section p{
     color: #7d7b8d;
 }
 
-
-
-
-
 </style>
