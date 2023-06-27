@@ -129,11 +129,9 @@ div.band-section{
     @include centering(center, center, column);
     text-align: center;
     padding: 5rem 0 4rem;
-}
-
-div.band-section{
     color: #7d7b8d;
 }
+
 
 div.wrapper{
     padding-bottom: 8rem;
@@ -141,7 +139,6 @@ div.wrapper{
 
 section.band{
     background-color: $darkgray;
-    
 }
 
 div.container-fluid{
