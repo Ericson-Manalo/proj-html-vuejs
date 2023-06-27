@@ -6,13 +6,17 @@
             </div>
             <div class="list-settings">
                 <ul>
-                    <li v-for="setting in settingList">
+                    <li v-for="setting in optionList" :class="setting.link ? 'active' : ''">
                         <a href="#">
                             {{ setting.text }}
                         </a>
                     </li>
                 </ul>
             </div>
+        </div>
+
+        <div class="lower-footer">
+
         </div>
     </footer>
 </template>
@@ -21,7 +25,7 @@ export default {
     name: 'AppFooter',
     data() {
         return {
-            settingList:[
+            optionList:[
                 {
                     text: 'Home',
                     active: true
@@ -46,7 +50,9 @@ export default {
                     text: 'Fans',
                     active: false
                 }
-            ]
+            ],
+
+
         }
     },
 }
@@ -68,14 +74,19 @@ div.upper-footer{
 ul{
     display: flex;   
     margin: 0;
-
 }
 
 ul li{
     list-style: none;
     height: 100%;
     margin-right: 1rem;
+    color: #7d7b8d;
+
+    li.active{
     color: white;
+    }
 }
+
+
     
 </style>
