@@ -89,12 +89,11 @@ ul li{
     margin-right: 1rem;
     color: #7d7b8d;
     font-size: 13px;
-
-    li.active{
-    color: white;
-    }
 }
 
+ul li:hover{
+    color: white;
+}
 div.lower-footer{
     background-color: $darkgray;
     padding: 3rem 2rem;
