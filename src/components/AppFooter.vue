@@ -122,6 +122,12 @@ div.footer-icons i{
     border-radius: 4px;
 }
 
+div.footer-icons i:hover{
+    background-color: $red;
+    color: $darkgray;
+    cursor: pointer;
+}
+
 
     
 </style>
