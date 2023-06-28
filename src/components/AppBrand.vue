@@ -27,6 +27,10 @@
                                             Sed sit amet sem turpis. Curabitur cursus lacinia est interdum risus id condimentum.
                                         </p>
                                     </div>
+
+                                    <div class="title-wrapper">
+                                        Technology and music
+                                    </div>
  
                                 </div>
                                 <div class="col-12 col-lg-6 guitar-card">
@@ -38,6 +42,10 @@
                                             Sed sit amet sem turpis. Curabitur cursus lacinia est interdum risus id condimentum.
                                         </p>
                                     </div>
+
+                                    <div class="title-wrapper">
+                                        While my guitar gently weeps
+                                    </div>
                                 </div>
                                 <div class="col-12 col-lg-6 mb-3 sounds-card">
                                     <div class="details-card">
@@ -48,6 +56,10 @@
                                             Sed sit amet sem turpis. Curabitur cursus lacinia est interdum risus id condimentum.
                                         </p>
                                     </div>
+
+                                    <div class="title-wrapper">
+                                        It just sounds better
+                                    </div>
                                 </div>
                                 <div class="col-12 flavor-rock-card ">
                                     <div class="details-card">
@@ -57,6 +69,10 @@
                                         <p>
                                             Sed sit amet sem turpis. Curabitur cursus lacinia est interdum risus id condimentum.
                                         </p>
+                                    </div>
+
+                                    <div class="title-wrapper">
+                                        The flavor of rock
                                     </div>
                                 </div>
                             </div>
@@ -72,6 +88,10 @@
                                         Sed sit amet sem turpis. Curabitur cursus lacinia est interdum risus id condimentum.
                                     </p>
                                 </div>
+
+                                <div class="title-wrapper">
+                                    Taking it back to the old school
+                                </div>
                             </div>
                             <div class="col-12 stage-card">
                                 <div class="details-card">
@@ -81,6 +101,10 @@
                                     <p>
                                         Sed sit amet sem turpis. Curabitur cursus lacinia est interdum risus id condimentum.
                                     </p>
+                                </div>
+
+                                <div class="title-wrapper">
+                                    Sharing the stage with a legened
                                 </div>
                             </div>
                         </div>
@@ -152,6 +176,28 @@ div.technology-card{
     position: relative;
 }
 
+div.title-wrapper{
+    background-color: rgb(189, 64, 77, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transform: translateX(0);
+    font-weight: 700;
+    color: white;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+}
+
+div.technology-card:hover div.title-wrapper{
+    transform: translateX(0);
+    opacity: 1;
+}
+
 div.details-card{
     position: absolute;
     bottom: 0;
@@ -177,6 +223,11 @@ div.guitar-card{
     position: relative;
 }
 
+div.guitar-card:hover div.title-wrapper{
+    transform: translateX(0);
+    opacity: 1;
+}
+
 div.sounds-card{
     background-image: url('../assets/images/blog-post4-400x600.jpg');
     height: 600px;
@@ -184,10 +235,20 @@ div.sounds-card{
     position: relative;
 }
 
+div.sounds-card:hover div.title-wrapper{
+    transform: translateX(0);
+    opacity: 1;
+}
+
 div.flavor-rock-card{
     height: 300px;
     background-image: url('../assets/images/blog_flavor_rock-800x400.jpg');
     position: relative;
+}
+
+div.flavor-rock-card:hover div.title-wrapper{
+    transform: translateX(0);
+    opacity: 1;
 }
 
 div.old-school-card{
@@ -199,12 +260,22 @@ div.old-school-card{
     background-position: center;
 }
 
+div.old-school-card:hover div.title-wrapper{
+    transform: translateX(0);
+    opacity: 1;
+}
+
 div.stage-card{
     background-image: url('../assets/images/blog-post2-400x600.jpg');
     height: 600px;
     background-repeat: no-repeat;
     position: relative;
     background-position: center;
+}
+
+div.stage-card:hover div.title-wrapper{
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .row{
