@@ -4,9 +4,9 @@
             <div class="logo">
                 <img src="../assets/images/avada-music-logo.png" alt="Avada Music Logo">
             </div>
-            <nav>
-                <!-- here goes hamburger-->
-            </nav>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
         <div class="header-content">
             <h1>
@@ -46,6 +46,20 @@ export default {
         background-size: cover;
         position: relative;
         background-position: center;
+    }
+
+    div.upper-header{
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+        padding: 0 2rem;
+        background-color: $colorheader;
+        align-items: center;
+
+        div.hamburger i{
+            font-size: 2rem;
+            color: white;
+        }
     }
     div.header-content{
         position: absolute;
