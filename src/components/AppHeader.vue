@@ -98,6 +98,14 @@ export default {
         border: 1px solid $red;
     }
 
+    .btn-latest-album:hover,
+    .btn-live-dates:hover
+    {
+            background-color: white;
+            color: black;
+            border: 1px solid white;
+        }
+
     .btn-live-dates{
         background-color: transparent;
     }
