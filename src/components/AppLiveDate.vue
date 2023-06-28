@@ -157,7 +157,7 @@
             
         </div>
 
-        <div class="d-flex justify-content-center banner align-items-center h-100 pt-5">
+        <div class="d-flex justify-content-center banner align-items-center h-100">
             <p class="m-0">
                 VIEW ALL LATEST NEWS
             </p>
@@ -234,7 +234,6 @@ div.untold-stories p{
     color: #7d7b8d;
     line-height: 2rem;
     font-family: 'Montserrat', sans-serif; 
-
 }
 
 div.untold-stories button{
