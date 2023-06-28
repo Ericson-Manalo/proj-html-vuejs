@@ -55,6 +55,9 @@ export default {
         padding: 0 2rem;
         background-color: $colorheader;
         align-items: center;
+        width: 100%;
+        z-index: 1;
+        position: fixed;
 
         div.hamburger i{
             font-size: 2rem;
