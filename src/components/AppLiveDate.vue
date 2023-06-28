@@ -156,6 +156,13 @@
             </div>
             
         </div>
+
+        <div class="d-flex justify-content-center banner align-items-center h-100 pt-5">
+            <p class="m-0">
+                VIEW ALL LATEST NEWS
+            </p>
+        </div>
+
     </section>
 </template>
 <script>
