@@ -219,6 +219,12 @@ div.banner{
     font-weight: 700;
 }
 
+div.banner:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 section.citation{
     background-image: url('../assets/images/home-testimonial-parallax.jpg');
     height: 90vh;
