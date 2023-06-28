@@ -97,7 +97,7 @@ ul li{
 
 div.lower-footer{
     background-color: $darkgray;
-    padding: 3.5rem 2rem;
+    padding: 3rem 2rem;
     display: flex;
     justify-content: space-between;
 
