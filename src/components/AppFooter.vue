@@ -105,11 +105,21 @@ div.lower-footer{
         color:#7d7b8d;
         font-size: 14px;
         margin: 0;
+        display: flex;
+        align-items: center;
 
         span{
             color: $red;
         }
     }
+}
+
+div.footer-icons i{
+    background-color: $gray;
+    color: $lightgray;
+    padding: 1rem;
+    margin-left: .5rem;
+    border-radius: 4px;
 }
 
 
