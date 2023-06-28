@@ -16,7 +16,16 @@
         </div>
 
         <div class="lower-footer">
+            <p class="footer-settings">
+                © Copyright 2012 - 2023 | <span>Avada Website Builder</span>  by <span>ThemeFusion</span>  | All Rights Reserved | Powered by <span>WordPress</span> 
+            </p>
 
+            <div class="footer-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
         </div>
     </footer>
 </template>
@@ -50,9 +59,7 @@ export default {
                     text: 'Fans',
                     active: false
                 }
-            ],
-
-
+            ]
         }
     },
 }
@@ -81,9 +88,27 @@ ul li{
     height: 100%;
     margin-right: 1rem;
     color: #7d7b8d;
+    font-size: 13px;
 
     li.active{
     color: white;
+    }
+}
+
+div.lower-footer{
+    background-color: $darkgray;
+    padding: 3.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+
+    p{
+        color:#7d7b8d;
+        font-size: 14px;
+        margin: 0;
+
+        span{
+            color: $red;
+        }
     }
 }
 
